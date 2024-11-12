@@ -10,6 +10,7 @@
 body{
     background: #1A1423;
     color: aliceblue;
+    justify-content: center;
 }
 
 .header{
@@ -45,6 +46,33 @@ body{
 .navbar a.active {
     color: #7691f2;
 }
+
+.carousel {
+    position: relative;
+    margin-top: 125px;
+    margin-left: 65px;
+    z-index: 1;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+   
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
 
 .home{
     height: 75vh;
