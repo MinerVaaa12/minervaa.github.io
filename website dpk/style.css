@@ -246,7 +246,7 @@ h1::before{
     -webkit-text-stroke: 0vw #383d52;
     border-right: 1px solid #000000;
     overflow: hidden;
-    animation: animate 7s linear infinite;
+    animation: animate 6s linear infinite;
 }
 
 @keyframes animate 
@@ -426,8 +426,147 @@ h1::before{
 
 }
 
-/* Product slider */
 
+
+.slider-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.slider-heading h3 {
+    font-size: 1.75rem;
+    color: #0f123d;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 34px;
+    text-decoration: none;
+}
+.slider {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto; 
+    gap: 2rem; 
+    scroll-behavior: smooth; 
+    scrollbar-width: none; 
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 20px;
+    margin: 25px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.03);
+    border: 2px solid rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    transition: all ease 0.3s;
+}
+
+.product-box a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-box strong {
+    color: #000000;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 24px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.product-box p {
+    color: #8e8e8e;
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.product-box img {
+    width: 100%;
+    max-width: 350px;
+    height: 310px;
+    object-fit: contain;
+    object-position: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.product-box:hover {
+    transform: scale(1.05); 
+}
+
+.buy-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px;
+}
+
+.buy-price p {
+    position: relative;
+    display: flex;
+    color: #0f123d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    max-width: 250px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buy-price .buy-btn {
+    color: #ffffff;
+    background-color: #409D45;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buy-btn:hover {
+    background-color: #0f123d;
+}
+
+#autoWidth {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    gap: 2rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
+}
+
+#autoWidth .item-a {
+    flex: 0 0 auto;
+    width: 260px; 
+}
+
+  
 
 /* Footer */
 
