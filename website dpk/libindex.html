@@ -35,13 +35,65 @@
         </div>
           
           <nav class="navbar">
-              <a href="cartindex.html" style="--i:12"><i class='bx bx-cart' ></i></a>
-              <a href="index.html" class=""  style="--i:13">Home</a>
-              <a href="libindex.html" class="active"  style="--i:14">Library</a>
+              <i class='bx bx-cart' id="cart-icon"></i>
+              <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+      
+                <div class="cart-content">
+                  <div class="cart-box">
+                    <img src="Book Image/Dandadan.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                      <div class="cart-product-title">Dandadan</div>
+                      <div class="cart-price">Rp50000</div>
+                      <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove'></i>
+                  </div>
+                </div>
+      
+                <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">Rp50.000</div>
+                </div>
+      
+                <button type="button" class="btn-buy">Buy Now</button>
+                
+                <i class='bx bx-x' id="close-cart"></i>
+      
+              </div>
+              <a href="index.html" class="active"  style="--i:13">Home</a>
+              <a href="libindex.html"  style="--i:14">Library</a>
               <a href="login.html"  style="--i:15">Login</a>
           </nav>
-
+          <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+  
+            <div class="cart-content">
+              <div class="cart-box">
+                <img src="Book Image/Dandadan.jpg" alt="" class="cart-img">
+                <div class="detail-box">
+                  <div class="cart-product-title">Dandadan</div>
+                  <div class="cart-price">Rp50.000</div>
+                  <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class='bx bxs-trash-alt cart-remove'></i>
+              </div>
+            </div>
+  
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">Rp.0</div>
+            </div>
+  
+            <button type="button" class="btn-buy">Buy Now</button>
+            
+            <i class='bx bx-x' id="close-cart"></i>
+  
+          </div>
       </header>
+    <br>
+
+
     <!-- <section class="promotion-page">  -->
       <div class="image-utama">
         <div class="carousel">
@@ -78,342 +130,338 @@
         <ul id="autoWidth" class="cs-hidden">
           <li class="item-a">
             <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Dandadan.jpg" alt="Atomic Habits">
-                <strong>Dandadan</strong>
-                <br>
-                <p>Yukinobu Tatsu</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp50.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
+                <a href="#">
+                    <img src="Book Image/Dandadan.jpg" alt="Dandadan" class="product-img">
+                    <strong class="product-title">Dandadan</strong>
+                    <br>
+                    <p class="price">Rp50.000</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp50.000</p>
+                    <a href="#" class="buy-btn">Available</a>
+                </div>
             </div>
           </li>
 
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/86.jpg" alt="Atomic Habits">
-                <strong>Eighty Six</strong>
-                <br>
-                <p>Asato Asato</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp100.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Bluelock.jpg" alt="Atomic Habits">
-                <strong>Blue Lock 10</strong>
-                <br>
-                <p>Mineyuki Kaneshiro</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp45.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Gadis kretek.jpg" alt="Atomic Habits">
-                <strong>Gadis Kretek</strong>
-                <br>
-                <p>Ratih Kumala</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp75.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Monster.jpg" alt="Atomic Habits">
-                <strong>Akasha : Monster 03</strong>
-                <br>
-                <p>Naoki Urasawa</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp150.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Weathering_With_You_RbOW2b6.jpg" alt="Atomic Habits">
-                <strong>Weathering With You</strong>
-                <br>
-                <p>Makoto Shinkai</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp90.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Sincepity.jpg" alt="Atomic Habits">
-                <strong>Sincerpity</strong>
-                <br>
-                <p>Maro Fitzye</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp50.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-        </ul>
+          <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/86.jpg" alt="Eighty Six" class="product-img">
+                        <strong class="product-title">Eighty Six</strong>
+                        <br>
+                        <p>Asato Asato</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp100.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
         
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Bluelock.jpg" alt="Blue Lock 10" class="product-img">
+                        <strong class="product-title">Blue Lock 10</strong>
+                        <br>
+                        <p>Mineyuki Kaneshiro</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp45.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Gadis kretek.jpg" alt="Gadis Kretek" class="product-img">
+                        <strong class="product-title">Gadis Kretek</strong>
+                        <br>
+                        <p>Ratih Kumala</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp75.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Monster.jpg" alt="Akasha: Monster 03" class="product-img">
+                        <strong class="product-title">Akasha: Monster 03</strong>
+                        <br>
+                        <p>Naoki Urasawa</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp150.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Weathering_With_You_RbOW2b6.jpg" alt="Weathering With You" class="product-img">
+                        <strong class="product-title">Weathering With You</strong>
+                        <br>
+                        <p>Makoto Shinkai</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp90.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Sincepity.jpg" alt="Sincerpity" class="product-img">
+                        <strong class="product-title">Sincerpity</strong>
+                        <br>
+                        <p>Maro Fitzye</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp50.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
       </section>
-  
-
-      <section class="product-slider">
-
-        <div class="slider-heading">
-          <h3>Trending Now </h3>  
-        </div>
-
-        <ul id="autoWidth" class="cs-hidden">
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Alya.jpg" alt="Atomic Habits">
-                <strong>Alya Sometimes....</strong>
-                <br>
-                <p>Sunsunsun</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp98.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Dandadan.jpg" alt="Atomic Habits">
-                <strong>Dandadan</strong>
-                <br>
-                <p>Yukinobu Tatsu</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp50.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Laut bercerita.png" alt="Atomic Habits">
-                <strong>Laut Bercerita</strong>
-                <br>
-                <p>Leila S. Chudori</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp115.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Methamorphosis.jpg" alt="Atomic Habits">
-                <strong>The Methamorphosis</strong>
-                <br>
-                <p>Franz Kafka</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp50.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/solo leveling.jpg" alt="Atomic Habits">
-                <strong>Solo Leveling 5</strong>
-                <br>
-                <p>DUBU/CHUGONG</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp85.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/Atomic Habits.jpg" alt="Atomic Habits">
-                <strong>Atomic Habits</strong>
-                <br>
-                <p>James Clear</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp362.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-a">
-            <div class="product-box">
-              <a href="#">
-                <img src="Book Image/mushoku.webp" alt="Atomic Habits">
-                <strong>Mushoku Tensei</strong>
-                <br>
-                <p>Rifujin</p>
-              </a>
-              <div class="buy-price">
-                <p>Rp100.000</p>
-                <a href="#" class="buy-btn">Available</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-        
-
-        <section class="product-slider">
-
-            <div class="slider-heading">
-              <h3>For You</h3>  
-            </div>
+      <div class="slider-heading">
+        <h3>Trending Now</h3>
+    </div>
     
-            <ul id="autoWidth" class="cs-hidden">
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/psychology of money.jpg" alt="Atomic Habits">
-                    <strong>Psychology of Money</strong>
+    <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/Alya.jpg" alt="Alya Sometimes...." class="product-img">
+                    <strong class="product-title">Alya Sometimes....</strong>
                     <br>
-                    <p>Morgan Housel</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp85.000</p>
+                    <p>Sunsunsun</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp98.000</p>
                     <a href="#" class="buy-btn">Available</a>
-                  </div>
                 </div>
-              </li>
+            </div>
+        </li>
     
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/Rezero.png" alt="Atomic Habits">
-                    <strong>Re:Zero</strong>
-                    <br>
-                    <p>TAPPEI NAGATSUKI</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp90.000</p>
-                    <a href="#" class="buy-btn">Available</a>
-                  </div>
-                </div>
-              </li>
-    
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/yourname.jpg" alt="Atomic Habits">
-                    <strong>Your Name</strong>
-                    <br>
-                    <p>Makoto Shinkai</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp90.000</p>
-                    <a href="#" class="buy-btn">Available</a>
-                  </div>
-                </div>
-              </li>
-    
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/the prince.jpg" alt="Atomic Habits">
-                    <strong>The Prince</strong>
-                    <br>
-                    <p>Niccolo Machiavelli</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp60.000</p>
-                    <a href="#" class="buy-btn">Available</a>
-                  </div>
-                </div>
-              </li>
-    
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/Kaoru WAaguru.avif" alt="Atomic Habits">
-                    <strong>The Fragrant Flower...</strong>
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/Dandadan.jpg" alt="Dandadan" class="product-img">
+                    <strong class="product-title">Dandadan</strong>
                     <br>
                     <p>Yukinobu Tatsu</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp36.000</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp50.000</p>
                     <a href="#" class="buy-btn">Available</a>
-                  </div>
                 </div>
-              </li>
+            </div>
+        </li>
     
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/Conanavif.avif" alt="Atomic Habits">
-                    <strong>Detective Conan</strong>
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/Laut bercerita.png" alt="Laut Bercerita" class="product-img">
+                    <strong class="product-title">Laut Bercerita</strong>
                     <br>
-                    <p>Aoyama Gosho</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp65.000</p>
+                    <p>Leila S. Chudori</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp115.000</p>
                     <a href="#" class="buy-btn">Available</a>
-                  </div>
                 </div>
-              </li>
+            </div>
+        </li>
     
-              <li class="item-a">
-                <div class="product-box">
-                  <a href="#">
-                    <img src="Book Image/FRIEREN.avif" alt="Atomic Habits">
-                    <strong>Frieren</strong>
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/Methamorphosis.jpg" alt="The Methamorphosis" class="product-img">
+                    <strong class="product-title">The Methamorphosis</strong>
                     <br>
-                    <p>KANEHITO YAMADA/TSUKASA ABE</p>
-                  </a>
-                  <div class="buy-price">
-                    <p>Rp36.000</p>
+                    <p>Franz Kafka</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp50.000</p>
                     <a href="#" class="buy-btn">Available</a>
-                  </div>
                 </div>
-              </li>
-            </ul>
-
+            </div>
+        </li>
+    
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/solo leveling.jpg" alt="Solo Leveling 5" class="product-img">
+                    <strong class="product-title">Solo Leveling 5</strong>
+                    <br>
+                    <p>DUBU/CHUGONG</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp85.000</p>
+                    <a href="#" class="buy-btn">Available</a>
+                </div>
+            </div>
+        </li>
+    
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/Atomic Habits.jpg" alt="Atomic Habits" class="product-img">
+                    <strong class="product-title">Atomic Habits</strong>
+                    <br>
+                    <p>James Clear</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp362.000</p>
+                    <a href="#" class="buy-btn">Available</a>
+                </div>
+            </div>
+        </li>
+    
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <img src="Book Image/mushoku.webp" alt="Mushoku Tensei" class="product-img">
+                    <strong class="product-title">Mushoku Tensei</strong>
+                    <br>
+                    <p>Rifujin</p>
+                </a>
+                <div class="buy-price">
+                    <p class="price">Rp100.000</p>
+                    <a href="#" class="buy-btn">Add to Cart</a>
+                </div>
+            </div>
+        </ li>
+    
+    </ul>
+    
+    <section class="product-slider">
+        <div class="slider-heading">
+            <h3>For You</h3>
+        </div>
+    
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/psychology of money.jpg" alt="Psychology of Money" class="product-img">
+                        <strong class="product-title">Psychology of Money</strong>
+                        <br>
+                        <p>Morgan Housel</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp85.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Rezero.png" alt="Re:Zero" class="product-img">
+                        <strong class="product-title">Re:Zero</strong>
+                        <br>
+                        <p>TAPPEI NAGATSUKI</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp90.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/yourname.jpg" alt="Your Name" class="product-img">
+                        <strong class="product-title">Your Name</strong>
+                        <br>
+                        <p>Makoto Shinkai</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp90.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/the prince.jpg" alt="The Prince" class="product-img">
+                        <strong class="product-title">The Prince</strong>
+                        <br>
+                        <p>Niccolo Machiavelli</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp60.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Kaoru WAaguru.avif" alt="The Fragrant Flower..." class="product-img">
+                        <strong class="product-title">The Fragrant Flower...</strong>
+                        <br>
+                        <p>Yukinobu Tatsu</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp36.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/Conanavif.avif" alt="Detective Conan" class="product-img">
+                        <strong class="product-title">Detective Conan</strong>
+                        <br>
+                        <p>Aoyama Gosho</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp65.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="item-a">
+                <div class="product-box">
+                    <a href="#">
+                        <img src="Book Image/FRIEREN.avif" alt="Frieren" class="product-img">
+                        <strong class="product-title">Frieren</strong>
+                        <br>
+                        <p>KANEHITO YAMADA/TSUKASA ABE</p>
+                    </a>
+                    <div class="buy-price">
+                        <p class="price">Rp36.000</p>
+                        <a href="#" class="buy-btn">Available</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+        
       </section>
+      <script src="script.js"></script>
       <script src="app.js"></script>
       <script src="slider.js"></script>
   </body>
@@ -439,5 +487,5 @@
       <p>Copyright &copy;2024; Designed by <span class="designer">Senopati</span></p>
     </div>
   </footer>
-
+  
 </html>
